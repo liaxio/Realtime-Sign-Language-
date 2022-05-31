@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".user_login">
+    <EditText
+        android:id="@+id/username1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User Name"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:layout_marginTop="50dp"/>
+
+
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/username1"/>
+
+    <Button
+        android:id="@+id/btnsignin1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password1"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="439dp"
+        android:onClick="onClick"
+        android:text="Sign in" />
+
+
+</RelativeLayout>
